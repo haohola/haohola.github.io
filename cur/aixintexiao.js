@@ -61,6 +61,6 @@ style.styleSheet.cssText = css;
 document.getElementsByTagName('head')[0].appendChild(style);
 }
 function randomColor(){
-return "rgb("+(~~(Math.random()*255))+","+(~~(Math.random()*255))+","+(~~(Math.random()*255))+")";
+ return "rgb("+(~~(Math.random()*255))+","+(~~(Math.random()*255))+","+(~~(Math.random()*255))+")"; 
 }
 })(window,document);
